@@ -258,3 +258,118 @@ h2{
 ._none{
     border-left: 2px dotted transparent;
 }
+
+@media (max-width: 960px) {
+    .education-years{
+        padding: 0 20px 0 10px;
+    }
+    .education-desc__block {
+        padding: 3px 0 15px 108px;
+    }
+}
+.list-experience{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.experience-title__block{
+    display: flex;
+}
+.fa-check-circle{
+    font-size: 2em;
+    margin: auto 0;
+}
+.fas.fa-check-circle{
+    color: #f5d944;
+}
+.far.fa-check-circle{
+    color: #ababab;
+}
+.title-work{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.experience-time__block{
+    display: flex;
+}
+.name-work{
+    font-weight: 500;
+    margin-left: 7px;
+}
+.left-column-experience{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.section__icon._main .fas.fa-project-diagram{
+    margin-top: 16px;
+}
+
+.project-items{
+    margin-top: 20px;
+}
+.project-item{
+    margin-bottom: 25px;
+}
+.project-title{
+
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.project-title:hover{
+    cursor: pointer;
+    color: #f5d944;
+}
+.icon-project-lang{
+    font-size: 2em;
+    color: #818181;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.project-lang{
+    display: flex;
+}
+.project-lang span{
+    margin: auto 0;
+    margin-left: 7px;
+}
+.project-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.footer{
+    background: #545554;
+    margin: 0 auto;
+}
+.__container-footer{
+    width: 400px;
+    margin: 0 auto;
+}
+.list-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item-icon{
+    margin: auto 0;
+}
+.item-icon .fab.fa-github,.fa-instagram{
+    font-size: 3.5em;
+}
+.list-icons svg{
+    width: 111px;
+    margin: 10px 0;
+}
+.list-icons a:hover{
+    cursor: pointer;
+}
+.item-icon span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.contact__text{
+    font-size: 1.2em;
+}
