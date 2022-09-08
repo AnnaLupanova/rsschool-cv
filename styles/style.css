@@ -1,0 +1,260 @@
+body{
+    background: #ffffff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    color: #f5d944;
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+}
+aside{
+    background: #eaeaea;
+    width: 33.3%;
+    padding-bottom: 40px;
+}
+main{
+    width: 66.7%;
+    background: #ffffff;
+}
+.avatar{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    object-fit: cover;
+    object-position: top;
+}
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 76px;
+
+
+}
+header{
+    padding: 50px 0;
+    background: #f5d944;
+    border-radius: 0 0 280px 280px/100px
+}
+h1 {
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.section__icon{
+    margin-top: 40px;
+    font-size: 2em;
+
+    text-align: center;
+}
+.section__title{
+    margin: 10px 0 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
+._main{
+    background: #f5d944;
+    width: 60px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 54px;
+
+}
+.section__icon._main .fas{
+    margin-top:12px ;
+}
+._container{
+    padding: 0 60px;
+
+}
+.wrapper-main{
+    display: flex;
+    margin: auto 0;
+    padding-bottom: 20px;
+}
+._wrapper{
+    margin: 53px 0 0 30px;
+
+}
+._container::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+}
+._container:last-of-type::after{
+    display: none;
+}
+.section__content{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+.section__content p{
+    line-height: 1.6em;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item_list{
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.languages_list{
+}
+.lang__icon{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #f5d944;
+    margin-right: 9px;
+
+}
+.contact__item{
+    display: flex;
+    margin-bottom: 9px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.right-column-skills{
+    margin-left: 5px;
+}
+.contact__icon{
+    margin-right: 9px;
+}
+.progress-skill{
+    margin: auto 0;
+}
+.skills-list{
+    margin-top: 10px;
+}
+.item-skill{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.skill-title{
+    margin-right: 20px;
+
+}
+.level-skills{
+    display: flex;
+}
+.fas.fa-star{
+    color: #f5d944;
+}
+.item-level-skill:last-of-type{
+    margin-right: 0;
+}
+.fas.fa-star.not-checked{
+    color: #ababab;
+}
+@media (max-width: 1200px) {
+    ._container {
+        padding: 0 30px;
+    }
+    .skill-title{
+        width: 188px;
+    }
+    .left-column-skills,.right-column-skills{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 960px) {
+    ._container {
+        padding: 0 60px;
+    }
+    .skill-title{
+        width: 188px;
+    }
+    .left-column-skills,.right-column-skills{
+        margin-left: 0;
+    }
+}
+@media (max-width: 479px) {
+    .items-skills{
+        flex-direction: column;
+    }
+    .item-skill{
+
+        justify-content: start;
+    }
+    .skill-title{
+        width: 188px;
+    }
+}
+.education-item{
+    margin-bottom: 7px;
+}
+.education-title__block{
+    display: flex;
+    text-align: center;
+}
+.point-education{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f5d944;
+    margin: auto 0;
+}
+.education-years{
+    padding: 0 40px 0 20px;
+    font-size: 1em;
+}
+.education-name{
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: left;
+}
+.education-desc__block{
+    margin-top: 7px;
+    margin-left: 3.7px;
+    text-align: left;
+    padding: 5px 0 20px 147px;
+    border-left: 2px dotted #ababab;
+}
+._none{
+    border-left: 2px dotted transparent;
+}
